@@ -43,15 +43,10 @@
 ;; numbers are disabled. For relative line numbers, set this to `relative'.
 (setq display-line-numbers-type `relative)
 
-(org-babel-do-load-languages
- `org-babel-load-languages
- `((R . t))
- )
 
 (setq doom-modeline-height 21)
 
 (setq doom-modeline-modal-icon nil)
 
-
 (setq doom-modeline-buffer-state-icon nil)
-        
+
