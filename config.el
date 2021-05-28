@@ -50,3 +50,11 @@
 
 (setq doom-modeline-buffer-state-icon nil)
 
+(setq doom-modeline-icon nil)
+(setq doom-modeline-major-mode-icon nil)
+
+
+
+(remove-hook '+doom-dashboard-functions #'doom-dashboard-widget-shortmenu)
+(add-hook! '+doom-dashboard-mode-hook (hide-mode-line-mode 1) (hl-line-mode -1))
+(setq-hook! '+doom-dashboard-mode-hook evil-normal-state-cursor (list nil))
