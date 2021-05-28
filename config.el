@@ -53,4 +53,5 @@
 (setq doom-modeline-modal-icon nil)
 
 
-
+(setq doom-modeline-buffer-state-icon nil)
+        
